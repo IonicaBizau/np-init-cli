@@ -2,7 +2,7 @@
   "name": "np-init-cli",
   "version": "1.0.0",
   "description": "CLI for starting a new npm package.",
-  "main": "lib/index.js",
+  "main": "cli.js",
   "bin": {
     "np-init": "cli.js"
   },

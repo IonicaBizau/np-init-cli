@@ -2,6 +2,42 @@
 
 > CLI for starting a new npm package.
 
+## :cloud: Installation
+    
+You can install the package globally and use it as command line tool:
+
+```sh
+$ npm i -g np-init-cli
+```
+    
+:bulb: **ProTip**: If you want to use this package as module, check out [`np-init`—the API version of it](http://github.com/IonicaBizau/np-init).
+    
+
+Then, run `np-init --help` and see what the CLI tool can do.
+
+    
+```
+$ np-init --help
+Usage: np-init-cli [options]
+
+Options:
+  -n, --name <name>                The package name.                               
+  -d, --description <description>  The package description.                        
+  -H, --here                       If passed, this will create the package files in
+                                   the current directory.                          
+  -t, --template <template>        Set the template.                               
+  -c, --cli                        Pass this option if you are creating a cli      
+                                   package.                                        
+  -h, --help                       Displays this help.                             
+  -v, --version                    Displays version information.                   
+
+Examples:
+  
+  $ np-init
+
+Documentation can be found at https://github.com/IonicaBizau/np-init-cli#readme
+```
+    
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
