@@ -1,0 +1,35 @@
+{
+  "name": "np-init-cli",
+  "version": "1.0.0",
+  "description": "CLI for starting a new npm package.",
+  "main": "lib/index.js",
+  "bin": {
+    "np-init": "cli.js"
+  },
+  "dependencies": {
+    "clp": "^3.2.1",
+    "np-init": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/np-init-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "package"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/np-init-cli/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/np-init-cli#readme",
+  "blah": {
+    "api": "np-init"
+  }
+}
