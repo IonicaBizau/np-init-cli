@@ -18,24 +18,18 @@ Then, run `np-init --help` and see what the CLI tool can do.
     
 ```
 $ np-init --help
-Usage: np-init-cli [options]
+Usage: np-init <name> <description> [options]
+
+CLI for starting a new npm package.
 
 Options:
-  -n, --name <name>                The package name.                               
-  -d, --description <description>  The package description.                        
-  -H, --here                       If passed, this will create the package files in
-                                   the current directory.                          
-  -t, --template <template>        Set the template.                               
-  -c, --cli                        Pass this option if you are creating a cli      
-                                   package.                                        
-  -h, --help                       Displays this help.                             
-  -v, --version                    Displays version information.                   
-
-Examples:
-  
-  $ np-init
-
-Documentation can be found at https://github.com/IonicaBizau/np-init-cli#readme
+  -c, --cli                  Pass this option if you are creating a cli package.
+  -f, --folder <path>        The package folder path.                           
+  -t, --template <template>  Set the template.                                  
+  -v, --version              Displays version information.                      
+  -h, --help                 Displays this help.                                
+                                                                                
+Documentation can be found at https://github.com/IonicaBizau/np-init-cli#readme.
 ```
     
 ## :yum: How to contribute

@@ -7,8 +7,8 @@
     "np-init": "cli.js"
   },
   "dependencies": {
-    "clp": "^3.2.1",
-    "np-init": "^1.0.0"
+    "np-init": "^1.0.0",
+    "tilda": "^4.1.1"
   },
   "devDependencies": {},
   "scripts": {
