@@ -8,7 +8,15 @@ const Tilda = require("tilda")
     ;
 
 new Tilda(`${__dirname}/package.json`, {
-    args: ["name", "description"]
+    args: [{
+        name: "name"
+      , desc: "The package name."
+      , type: String
+    }, {
+        name: "description"
+      , desc: "The package description."
+      , type: String
+    }]
   , options: [
         {
             opts: ["c", "cli"]

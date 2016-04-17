@@ -22,6 +22,10 @@ Usage: np-init <name> <description> [options]
 
 CLI for starting a new npm package.
 
+Command arguments:
+  <name>         The package name.       
+  <description>  The package description.
+                                         
 Options:
   -c, --cli                  Pass this option if you are creating a cli package.
   -f, --folder <path>        The package folder path.                           
