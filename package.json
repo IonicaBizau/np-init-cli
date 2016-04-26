@@ -1,6 +1,6 @@
 {
   "name": "np-init-cli",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "CLI for starting a new npm package.",
   "main": "cli.js",
   "bin": {
@@ -31,5 +31,16 @@
   "homepage": "https://github.com/IonicaBizau/np-init-cli#readme",
   "blah": {
     "api": "np-init"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
