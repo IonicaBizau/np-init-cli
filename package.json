@@ -1,6 +1,6 @@
 {
   "name": "np-init-cli",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "CLI for starting a new npm package.",
   "main": "cli.js",
   "bin": {
@@ -23,7 +23,7 @@
     "npm",
     "package"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/np-init-cli/issues"
@@ -36,12 +36,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
