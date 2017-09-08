@@ -1,6 +1,6 @@
 {
   "name": "np-init-cli",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "CLI for starting a new npm package.",
   "main": "cli.js",
   "bin": {
@@ -42,6 +42,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
