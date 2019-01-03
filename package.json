@@ -1,6 +1,6 @@
 {
   "name": "np-init-cli",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "CLI for starting a new npm package.",
   "main": "cli.js",
   "bin": {
